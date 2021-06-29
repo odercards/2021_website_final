@@ -26,19 +26,25 @@ body {
   position: relative;
   align-items: center;
   justify-content: center;
-  background-color: #45CCFF;
+  background-color: #ff8a8a;
 }
-.pane:nth-child(4n+2) {
-  background-color: #49E83E;
+.pane:nth-child(6n+2) {
+  background-color: #ffab45;
 }
-.pane:nth-child(4n+3) {
-  background-color: #EDDE05;
+.pane:nth-child(6n+3) {
+  background-color: #d4ff45;
 }
-.pane:nth-child(4n+4) {
-  background-color: #E84B30;
+.pane:nth-child(6n+4) {
+  background-color: #5bff45;
+}
+.pane:nth-child(6n+5) {
+  background-color: #64c9ff;
+}
+.pane:nth-child(6n+6) {
+  background-color: #e99bff;
 }
 .pane:last-child {
-  background-color: #45CCFF;
+  background-color: #ff8a8a;
 }
 
 .hideme {
